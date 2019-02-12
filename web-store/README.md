@@ -13,7 +13,10 @@ API sklepu internetowego, który obsługuje: produkty, ceny (ceny mogą się zmi
 
 ## Do zrobienia:
 
-Zaimplementowany model bazy danych w którejś z wbudowanych baz danych (h2, hsql lub inna)
-Wprowadzone dane kilku produktów
-REST API z przykładami użycia w testach jednostkowych
-Aplikacja powinna się uruchamiać z Mavena (można użyć Spring boot lub embedded Jetty/Tomcat)
+* ~~Zaimplementowany model bazy danych w którejś z wbudowanych baz danych (h2, hsql lub inna)~~ Zamiast bazy danych prosze o przechowywanie danych w tablicach lub mapach w obiektach typu "Repository". 
+* Wprowadzone dane kilku produktów
+* REST API z przykładami użycia w testach jednostkowych
+    * Testy np. w pyspark 
+    * Serwer moze byc ba Flask'u
+
+* ~~Aplikacja powinna się uruchamiać z Mavena (można użyć Spring boot lub embedded Jetty/Tomcat)~~
